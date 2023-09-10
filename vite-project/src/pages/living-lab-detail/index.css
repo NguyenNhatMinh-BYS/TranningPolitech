@@ -1,0 +1,7 @@
+.ql-editor blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 16px;
+}
+.ql-editor ul {
+  list-style-type: disc;
+}

@@ -1,0 +1,12 @@
+.child {
+  display: none;
+}
+
+.parent:hover .child {
+  display: block;
+}
+.parent:hover{
+    color: white;
+    font-weight: 700;
+    
+}

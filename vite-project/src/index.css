@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b3b3b3b9;
+}
+
+/* Handle on hover */
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Noto Sans KR", sans-serif;
+}
+@keyframes spin180 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+.ql-editor blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 16px;
+}
+.ql-editor ul {
+  list-style-type: disc;
+}
