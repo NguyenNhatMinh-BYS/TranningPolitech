@@ -4,7 +4,7 @@ import Login from "./pages/login-page/Login";
 
 import LandingPage from "./pages/landing-page/LandingPage";
 import { Route, Routes } from "react-router-dom";
-import Register from "./pages/register/Register";
+import Register from "./pages/Register/Register";
 import NoticeDetail from "./pages/announcement-detail/AnnouncementDetail";
 import AnnouncementPage from "./pages/announcement-page/AnnouncementPage";
 import FacilityPage from "./pages/facility-page/FacilityPage";
@@ -22,9 +22,9 @@ import FreeBoardEdit from "./pages/freeboard-edit/FreeBoardEdit";
 import LivingLabEdit from "./pages/living-lab-edit/LivingLabEdit";
 import FreeBoardDetail from "./pages/freeboard-detail/FreeBoardDetail";
 import FreeBoardCreateUser from "./pages/freeboard-create-user/FreeBoardCreateUser";
-import AdminAuth from "./component/auth/AdminAuth";
+import AdminAuth from "./component/Auth/AdminAuth";
 import ManagerUser from "./pages/manager-user/ManagerUser";
-import NormalAuth from "./component/auth/NormalAuth";
+import NormalAuth from "./component/Auth/NormalAuth";
 
 import { routes } from "./utils/constants";
 import BaseLayout from "./layout/BaseLayout";
